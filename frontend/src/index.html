@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Promoteur Immo</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body>
+        <div class="header-block">
+            <header class = "fixed">
+                <a href="index.html">
+                    <h1>Biens immobiliers</h1>
+                </a>
+                <form class="login" action="https://localhost:8000/login" method="post">
+                    <input type="username" placeholder="Username" name="username" id="username" required/>
+                    <input type="password" placeholder="Password" name="password" id="password" required/>
+                    <input type="submit" name="submit" id="submit"/>
+                </form>
+            </header>
+        </div>
+        <div class="header-block">
+            <header>
+                <h1>TEST</h1>
+            </header>
+        </div>
+        <div class="main-block">
+            <div class="result-wrapper">
+                <div class="container">
+                    <h1 class="index-h1">Please login to check permissions</h1>
+                    <a href="stats.html" class="link"><button class="submit">View data stats</button></a>
+                </div>
+            </div>
+        </div>
+  </body>
+  <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../static/js/login.js"></script>
+</html>
